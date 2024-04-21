@@ -56,6 +56,10 @@ li, p{
 hr{
     width: 100%;
 }
+a:hover{
+    color: #f35524;
+    transition: .5s;
+}
 h1{
     left: 7.5em;
     top: .5em;
