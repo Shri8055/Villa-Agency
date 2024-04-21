@@ -56,10 +56,6 @@ li, p{
 hr{
     width: 100%;
 }
-a:hover{
-    color: #f35524;
-    transition: .5s;
-}
 h1{
     left: 7.5em;
     top: .5em;
@@ -80,6 +76,15 @@ h1{
     font-weight: 600; 
     text-decoration: none;
     color: black;
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+a:hover{
+    color: #f35524;
+    transition: .5s;
 }
 .fa-calendar{
     color: white;
