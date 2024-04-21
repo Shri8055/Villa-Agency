@@ -71,15 +71,15 @@ h1{
     float: right;
     right: 20em;
     top: -1.7em;
-}
-a{
+    font-weight: 600; 
     text-decoration: none;
-    font-weight: 600;
     color: black;
 }
 .header2-right-li{
     margin: 0 20px 0 20px;
-    font-weight: 600;
+    font-weight: 600; 
+    text-decoration: none;
+    color: black;
 }
 .fa-calendar{
     color: white;
