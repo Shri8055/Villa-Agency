@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    position: relative;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+.header1-left-ul{
+    list-style: none;
+}
+.header1-hr{
+    opacity: 30%;
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+li, p{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    font-weight: 300;
+    font-weight: 500;
+}
+.header1-left-li-p{
+    color: black;
+}
+.envelope1{
+    font-size: 14px;
+}
+.header1-left-li{
+    display: inline-block;
+    left: 19em;
+    top: 1.5em;
+    margin-left: 35px;
+    font-size: 14px;
+}
+.fa-envelope, .fa-map{
+    color: #f35524;
+    font-size: 20px;
+}
+.header1-right-ul{
+    float: right;
+    right: 11em;
+    top: -.5em;
+    font-size: 25px;
+    color: #aeaeae;
+}
+.header1-right-li:hover{
+    color: #f35524;
+    transition: .5s;
+}
+hr{
+    width: 100%;
+}
+h1{
+    left: 7.5em;
+    top: .5em;
+    width: 240px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.header2-right-ul{
+    float: right;
+    right: 20em;
+    top: -1.7em;
+}
+.header2-right-li{
+    margin: 0 20px 0 20px;
+    font-weight: 600;
+}
+.fa-calendar{
+    color: white;
+    width: 25px;
+    height: 25px;
+    z-index: 1;
+    padding: 10px 0 0 10px;
+    border-radius: 50%;
+    background-color: #f35524;
+}
+.header2-right-span{
+    width: 95px;
+    height: 25px;
+    right: 2em;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 7px 25px 5px 40px;
+    font-weight: 600;
+}
+.header2-right-span:hover, .header2-right-li:hover{
+    color: #f35524;
+    transition: .5s;
+}
+.section1-img{
+    width: 100%;
+    height: 350px;
+}
+.section1{
+    text-align: center;
+    height: 500px;
+}
+.section1-h1{
+    top: -4em;
+    font-size: 50px;
+    font-weight: 900;
+    left: 42.2%;
+    color: white;
+}
+.section1-p{
+    top: -15em;
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+}
+.section2{
+    text-align: center;
+}
+.section2-a{
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.section2-a:hover{
+    color: #f35524;
+    transition: .5s;
+}
+.section5-header, .section5-cards-ul{
+    text-align: center;
+    top: 2em;
+}
+.section5-h1{
+    left: 38%;
+    width: 450px;
+    text-shadow: 5px 5px 15px #a3a3a3;
+}
+.section5-img{
+    width: 356px;
+    height: 264px;
+    left: -7px;
+    border-radius: 10px;
+    margin: 0 30px 0 30px;
+}
+.section5-cards-ol1, .section5-cards-ol3, .section5-cards-ol5, .section5-cards-ol2, .section5-cards-ol4, .section5-cards-ol6{
+    width: 400px;
+    height: 600px;
+    padding: 30px 0;
+    top: 60px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    border: .5px solid #f1f1f1;
+}
+.section5-cards-ol2, .section5-cards-ol4, .section5-cards-ol6{
+    margin-top: 60px;
+}
+.villa-type{
+    background-color: #fbd9cf;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 5px;
+    top: 20px;
+    left: 25px;
+    float: left;
+}
+.villa-price{
+    font-weight: bold;
+    color: #f35524;
+    top: 20px;
+    left: 55px;
+}
+a:hover{
+    color: #f35524;
+    transition: .5s;
+}
+.section-cards-ol1-h3, .section-cards-ol2-h3, .section-cards-ol3-h3, .section-cards-ol4-h3, .section-cards-ol5-h3, .section-cards-ol6-h3, .section5-cards-data-ul{
+    top: 45px;
+    font-weight: bold;
+}
+.section5-cards{
+    margin-bottom: 15em;
+    left: 10px;
+}
+.section5-cards-data-name{
+    padding-top: 15px;
+    color: #a3a3a3;
+    font-weight: 400;
+}
+.section5-cards-data-values{
+    color: black;
+    font-weight: bold;
+}
+.section5-hr{
+    top: 70px;
+    left: 60px;
+    width: 70%;
+    opacity: 40%;
+}
+.section5-button{
+    top: 6.8em;
+    color: #f0f0f0;
+    font-weight: 500;
+    border-radius: 45px;
+    padding: 15px 25px;
+    background-color: black;
+}
+.section5-button:hover{
+    background-color: #f35524;
+    transition: .5s;
+}
+.tabs-ul{
+    top: -5em;
+    left: 43%;
+    width: 300px;
+}
+.tabs-li{
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #a3a3a3;
+    background-color: black;
+}
+.tabs-li:hover{
+    background-color: #f35524;
+    color: #f0f0f0;
+    transition: .5s;
+}
+.section7{
+    background-color: black;
+    padding: 30px 30px;
+    text-align: center;
+}
+.section7-span{
+    color: #f0f0f0;
+    font-weight: 600;
+}
